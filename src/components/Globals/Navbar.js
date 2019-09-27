@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import { Link } from "gatsby"
-import logo from "../../images/logo.svg"
-import { FaCartArrowDown } from "react-icons/fa"
+import React, { Component } from "react";
+import { Link } from "gatsby";
+import logo from "../../images/logo.svg";
+import { FaCartArrowDown } from "react-icons/fa";
 
 export default class Navbar extends Component {
   state = {
@@ -11,23 +11,23 @@ export default class Navbar extends Component {
       {
         id: 1,
         path: "/",
-        text: "home",
+        text: "home"
       },
       {
         id: 2,
         path: "/about",
-        text: "about",
-      },
-    ],
-  }
+        text: "about"
+      }
+    ]
+  };
   navbarHandler = () => {
     this.state.navbarOpen
       ? this.setState({ navbarOpen: false, css: "collapse navbar-collapse" })
       : this.setState({
           navbarOpen: true,
-          css: "collapse navbar-collapse show",
-        })
-  }
+          css: "collapse navbar-collapse show"
+        });
+  };
   render() {
     return (
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
                     {link.text}
                   </Link>
                 </li>
-              )
+              );
             })}
             <li className="nav-item ml-sm-5">
               <FaCartArrowDown className="cart-icon" />
@@ -61,6 +61,6 @@ export default class Navbar extends Component {
           </ul>
         </div>
       </nav>
-    )
+    );
   }
 }
