@@ -10,12 +10,15 @@ export default function Info() {
         <div className="row">
           <div className="col-10 col-sm mx-auto text-center">
             <p className="lead text-muted mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis, magni. Similique in qui, magnam aperiam nam earum sit
-              mollitia eos excepturi sunt illum, dolores obcaecati quaerat vel
-              ex error facilis. Ullam totam, doloribus modi ipsam voluptatibus
-              ab repellat tempora est culpa mollitia sapiente officia fugiat
-              quod! Sapiente commodi quia dolore.
+              Following John Smilga's course on Gatsby Development - Using
+              Gatsby | React | Graphql. This project uses Contentful as a CMS
+              provider and Netlify as a hosting provider. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Reiciendis, magni. Similique in
+              qui, magnam aperiam nam earum sit mollitia eos excepturi sunt
+              illum, dolores obcaecati quaerat vel ex error facilis. Ullam
+              totam, doloribus modi ipsam voluptatibus ab repellat tempora est
+              culpa mollitia sapiente officia fugiat quod! Sapiente commodi quia
+              dolore.
             </p>
             <Link to="/about">
               <button className="btn text-uppercase btn-yellow">
