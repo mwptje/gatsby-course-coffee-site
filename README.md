@@ -1,5 +1,19 @@
+<h1 align="center">
+  Coffee site example based on John Smilga's course Gatsby Tutorial and Projects
+</h1>
+
+[Link to finished project](https://gatsby-course-coffee-site.netlify.com/)
+
+This repository uses:
+
+* Gatsby
+* React
+* GraphQL
+* Contentful as a headless content server 
+* Automated deploy to Netlify
+* Option to use Snipcart as a remote shopping cart (not in use)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-[https://gatsby-course-coffee-site.netlify.com](https://gatsby-course-coffee-site.netlify.com)
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">
